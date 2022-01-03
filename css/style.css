@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fir1 {
+    background-image: url(../img/book_flight.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.item-nav{
+    text-decoration: none;
+    font-size: 20px;
+    color: #cfc6c7;
+    margin-top: 3px;
+    transition-duration: 0.7s;
+}
+
+.item-nav:hover {
+    color: #7DA2A9;
+}
+
+.nav li {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 10px;
+    color: #7DA2A9;
+}
+
+.main {
+    color: #cfc6c7;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    opacity: 80%;
+}
+
+.unv {
+    opacity: 60%;
+}
+
+.book {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 50px;
+    width: 250px;
+    margin-top: 300px;
+    margin-left: 585px;
+    border: #cfc6c7 1px solid;
+    border-radius: 3px;
+    transition-duration: 0.7s;
+}
+
+.book:hover {
+    cursor: pointer;
+    background-color: #7DA2A9;
+    color: black;
+    border-radius: 6px;
+} 
+
+.title2 {
+    margin-left: 50px;
+    margin-top: 65px;
+    color: rgb(138, 135, 135);
+}
+
+.pilots {
+    color: black;
+    opacity: 90%;
+    font-size: 20px;
+    margin-top: 120px;
+    margin-left: 510px;
+    display: inline-block;
+}
+/* firs pilot */
+.pilot1 {
+    position: relative;
+    width: 300px;
+}
+
+.main-img {
+    display: block;
+    width: 100%;
+    clip-path: circle();
+    margin-left: 570px;
+    margin-top: 60px;
+}
+
+.img-over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0%;
+    transition-duration: 0.7s;
+    clip-path: circle();
+    margin-left: 570px;
+
+}
+
+.img-over:hover {
+    opacity: 100%;
+    clip-path: circle();
+}
+
+.img-title {
+    font-size: 25px;
+}
+
+.img-desc {
+    font-size: 20;
+    margin-top: 0.25em;
+}
+/* second pilot */
+.pilot2 {
+    position: relative;
+    width: 300px;
+}
+
+.main-img2 {
+    display: block;
+    width: 100%;
+    clip-path: circle();
+    margin-left: 570px;
+    margin-top: 30px;
+}
+
+.img-over2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0%;
+    transition-duration: 0.7s;
+    clip-path: circle();
+    margin-left: 570px;
+}
+
+.img-over2:hover {
+    opacity: 100%;
+    clip-path: circle();
+}
+
+.img-title2 {
+    font-size: 25px;
+}
+
+.img-desc2 {
+    font-size: 20;
+    margin-top: 0.25em;
+}
+/* third pilot */
+.pilot3 {
+    position: relative;
+    width: 300px;
+}
+
+.main-img3 {
+    display: block;
+    width: 100%;
+    clip-path: circle();
+    margin-left: 570px;
+    margin-top: 30px;
+}
+
+.img-over3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0%;
+    transition-duration: 0.7s;
+    clip-path: circle();
+    margin-left: 570px;
+}
+
+.img-over3:hover {
+    opacity: 100%;
+    clip-path: circle();
+}
+
+.img-title3 {
+    font-size: 25px;
+}
+
+.img-desc3 {
+    font-size: 20;
+    margin-top: 0.25em;
+}
+/* Attendnats */
+.att-title {
+    margin-left: 460px;
+    margin-top: 60px;  
+    font-size: 20px;
+    color: black;
+    opacity: 90%; 
+}
+
+.Flight-attendants {
+    position: relative;
+    width: 300px;
+}
+
+.main-img-att {
+    display: block;
+    width: 100%;
+    margin-left: 570px;
+    margin-right: 30px;
+    border-radius: 20px;
+    margin-top: 35px;
+}
+
+.img-over-att {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 570px;
+    border-radius: 20px;
+    opacity: 0%;
+    transition-duration: 0.7s;
+}
+
+.img-over-att:hover {
+    opacity: 100%;
+}
+
+.img-title-att {
+    font-size: 25px;
+}
+
+.img-desc-att {
+    font-size: 20;
+    margin-top: 0.30em;
+    margin-left: 13px;
+}
+/* plane 1 */
+.plane-title {
+    margin-left: 505px;
+    margin-top: 60px;  
+    font-size: 20px;
+    color: black;
+    opacity: 90%; 
+}
+
+.plane {
+    position: relative;
+    width: 300px;
+}
+
+.img-plane {
+    display: block;
+    width: 100%;
+    margin-left: 570px;
+    margin-right: 30px;
+    border-radius: 20px;
+    margin-top: 35px;
+}
+
+.img-over-plane {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 570px;
+    border-radius: 20px;
+    opacity: 0%;
+    transition-duration: 0.7s;
+}
+
+.img-over-plane:hover {
+    opacity: 100%;
+}
+
+.img-title-plane {
+    font-size: 25px;
+}
+
+.img-desc-plane {
+    font-size: 20;
+    margin-top: 0.30em;
+    margin-left: 13px;
+}
+/* plane 2 */
+.plane2 {
+    position: relative;
+    width: 300px;
+}
+
+.img-plane2 {
+    display: block;
+    width: 100%;
+    margin-left: 570px;
+    margin-right: 30px;
+    border-radius: 20px;
+    margin-top: 35px;
+}
+
+.img-over-plane2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 570px;
+    border-radius: 20px;
+    opacity: 0%;
+    transition-duration: 0.7s;
+}
+
+.img-over-plane2:hover {
+    opacity: 100%;
+}
+
+.img-title-plane2 {
+    font-size: 25px;
+}
+
+.img-desc-plane2 {
+    font-size: 20;
+    margin-top: 0.30em;
+    margin-left: 13px;
+}
+/* Job hiring */
+.job {
+    position: relative;
+}
+
+.img-job {
+    display: block;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.job-over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    opacity: 75%;
+    margin-top: 120px;
+}
+
+.app {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 545px;
+    height: 50px;
+    width: 250px;
+    margin-left: 585px;
+    border: #cfc6c7 1px solid;
+    border-radius: 3px;
+    transition-duration: 0.7s;
+}
+
+.app a {
+    text-decoration: none;
+    color: white;
+}
+
+.app:hover {
+    cursor: pointer;
+    background-color: #7DA2A9;
+    color: black;
+    border-radius: 6px;
+}
+/* footer */
+.footer {
+    background-color: #7DA2A9;
+    height: 200px;
+}
+
+.inner-footer {
+    margin: 0px;
+    padding: 0px;
+    background-color: #7DA2A9;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links ul {
+    display: flex;
+    padding: 20px;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+}
+
+.social-items {
+    list-style: none;
+}
+
+.social-items a {
+    padding: 10px 20px;
+    font-size: 30px;
+    color: black;
+}
+
+.social-items a:hover {
+    color: white;
+}
+
+.quick-links {
+    display: flex;
+    width: 600px;
+    height: 70px;
+    margin-left: 515px;
+}
+
+.quick-links ul {
+    display: flex;
+}
+
+.quick-items {
+    list-style: none;
+}
+
+.quick-items a {
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 18px;
+    color: black;
+}
+
+.quick-items a:hover {
+    color: white;
+}
+
+.outer-footer {
+    color: black;
+    font-size: 15px;
+    margin-left: 500px;
+    margin-top: 40px;
+}
